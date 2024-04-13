@@ -38,7 +38,7 @@ app.use(function (req, res, next) {
 const mongoose = require('mongoose');
 
 
-mongoose.connect('mongodb+srv://Viru:viru123@cluster0.xt4zi9h.mongodb.net/QUIZ_API')
+mongoose.connect('')
   .then(() => console.log('Connected!'))
   .catch((error) => console.log(error));
 
